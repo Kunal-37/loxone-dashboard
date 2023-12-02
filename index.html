@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Loxone Lighting Control Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Loxone Lighting Control Dashboard</h1>
+
+<div class="tile">
+<img src="icon.png" alt="Lighting Icon">
+<p>Lighting Controller:</p>
+<select id="lightingController">
+<option value="0">Living Room</option>
+<option value="1">Kitchen</option>
+<option value="2">Bedroom</option>
+</select>
+<p>Loxone Miniserver Address:</p>
+<input type="text" id="loxoneAddress" value="192.168.1.10">
+<button id="toggleButton">Toggle Lighting</button>
+<p id="statusMessage"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
